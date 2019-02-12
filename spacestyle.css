@@ -1,0 +1,50 @@
+body {
+	margin: 0px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	font-family: 'Exo', sans-serif;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 600px;
+	text-align: center;
+	-moz-box-shadow: 4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+	background-color: rgba(0, 0, 255, 0.3);
+	color: white;
+}
+
+img {
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+
+p {
+	font-family: 'Exo', sans-serif;
+	border-bottom: 2px solid pink; 
+	border-right: 2px solid pink;
+	height:50px;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px; 
+	margin-right: 118px;
+	margin-left: 118px;
+	text-align: center;
+	background-color: rgba(0, 0, 255, 0.3);
+	color: white;
+
+}
